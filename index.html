@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Practice</title>
+        <link rel="stylesheet" href="./style.css"> <!--This is an external css-->
+        <link rel="shortcut icon" href="./logo.png" type="image/x-icon"> 
+        <style>
+            /*This is internal css*/
+        </style>
+    </head>
+    <body>
+        <!--<p style="/*This is inline css*/"></p>-->
+        <nav class="menu-bar" id="home" >
+            <div class="logo-container"><h1 class="logo"><a href="#" class="a-element-logo">Logo</a></h1></div>
+            <div class="menu-container">
+                <ul class="menu-ul">
+                    <li class="menu-li">
+                        <a href="#home" class="a-element">Home</a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="#gallery" class="a-element">Gallery</a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="#blog" class="a-element">Blog</a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="#contact" class="a-element">Contact</a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="#about" class="a-element">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="presentation-card">
+            <div class="content">
+                <h1>Welcome to learn CSS!!!</h1>
+                <p>
+                    Lets start learning using below begginers learning materials.
+                </p>
+                <p><a href="https://www.w3schools.com/" class="a-element a-button" target="_blank">W3School</a>  <a href="https://developer.mozilla.org/en-US/" class="a-element a-button" target="_blank">MDN Web Doc</a></p>
+            </div>
+        </div>
+
+        <br><br>
+        <h1 class="header-element" id="gallery" >Gallery</h1>
+        <div class="gallery">
+                <img src="./p1.jpg" class="gallery-pic" alt="Picture-One" >
+                <img src="./p2.jpg" class="gallery-pic" alt="Picture-One" >
+                <img src="./p3.jpg" class="gallery-pic" alt="Picture-One" >
+                <img src="./p4.jpg" class="gallery-pic" alt="Picture-One" >
+                <img src="./p5.jpg" class="gallery-pic" alt="Picture-One" >
+                <img src="./p6.jpg" class="gallery-pic" alt="Picture-One" >
+                <img src="./p7.jpg" class="gallery-pic" alt="Picture-One" >
+                <img src="./p8.jpg" class="gallery-pic" alt="Picture-One" >
+        </div>
+
+        <br><br>
+        <h1 class="header-element" id="blog" >Blog</h1>
+
+        <div class="container">
+            <div class="card">
+                <h3 class="card-heding">
+                    Card One
+                </h3>
+                <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                </p>
+
+                <p><a href="#" class="a-element a-button-card">Read More</a></p>
+
+            </div>
+            <div class="card">
+                <h3 class="card-heding">
+                    Card One
+                </h3>
+                <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                </p>
+
+                <p><a href="#" class="a-element a-button-card">Read More</a></p>
+
+            </div>
+            <div class="card">
+                <h3 class="card-heding">
+                    Card One
+                </h3>
+                <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                </p>
+
+                <p><a href="#" class="a-element a-button-card">Read More</a></p>
+
+            </div>
+            <div class="card">
+                <h3 class="card-heding">
+                    Card One
+                </h3>
+                <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                </p>
+
+                <p><a href="#" class="a-element a-button-card">Read More</a></p>
+
+            </div>
+
+        </div>
+
+        <br><br>
+        <h1 class="header-element" id="contact" >Contact Us</h1>
+
+        <div class="container" >
+            <form action="action.php" method="POST">
+                <div class="form-element">
+                    <label class="form-lable" for="firstname">First name:</label><br>
+                    <input class="form-input" type="text" name="firstname" placeholder="Enter your first name">
+                </div>
+                <div class="form-element">
+                    <label class="form-lable" for="lastname">Last name:</label><br>
+                    <input class="form-input" type="text" name="lastname" placeholder="Enter your last name">
+                </div>
+                <div class="form-element">
+                    <label class="form-lable" for="message">Message:</label><br>
+                    <textarea class="form-text"  name="message" id="message" rows="10" placeholder="Enter your message here"></textarea>
+                </div>
+
+                <a href="mailto:yourmail@id.com" class="a-element a-button-card">Send</a>
+
+            </form>
+
+        </div>
+
+        <br><br>
+        <h1 class="header-element" id="about" >About</h1>
+
+        <div class="box">
+            <div class="img">
+                <img class="logo-abt" src="./logo.png" alt="logo">
+            </div>
+            <div class="text">
+                <h3>Lorem Ipsum</h3><hr>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+            </div>
+        </div>
+
+        
+
+        <div class="footer">
+            <p>Copyright &copy; 2020</p>
+            <p>All rights reserved.</p>
+        </div>
+        
+    </body>
+</html>
